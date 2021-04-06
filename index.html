@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Supermercado</h1>
+    <div class="container">
+        <img id="harina" onclick="agregarProducto(this)"  src="./img/harina.jpg"  alt="harina">
+        <img id="pan" onclick="agregarProducto(this)" src="./img/pan.jpg" alt="pan">
+        <img id="papa" onclick="agregarProducto(this)" src="./img/papa.jpg" alt="papa">
+        <img id="palta" onclick="agregarProducto(this)" src="./img/palta.jpg" alt="palta">
+        <img id="fideos" onclick="agregarProducto(this)" src="./img/fideos.jpg" alt="fideos">
+        <img id="aceite" onclick="agregarProducto(this)" src="./img/aceite.jpg" alt="aceite">
+        <img id="sopa" onclick="agregarProducto(this)" src="./img/sopa.jpg" alt="sopa">
+        <img id="mermelada" onclick="agregarProducto(this)" src="./img/mermelada.jpg" alt="mermelada">
+        <img id="porotos" onclick="agregarProducto(this)" src="./img/porotos.jpg" alt="porotos">
+        <img id="lentejas" onclick="agregarProducto(this)" src="./img/lentejas.jpg" alt="lentejas">
+        <img id="mandarinas" onclick="agregarProducto(this)" src="./img/mandarina.jpg" alt="mandarina">
+        <img id="banana" onclick="agregarProducto(this)" src="./img/banana.jpg" alt="banana">
+        <img id="leche de almendras" onclick="agregarProducto(this)"  src="./img/lechealmendras.jpg" alt="lechealmendras">
+        <img id="papel higienico" onclick="agregarProducto(this)" src="./img/papelhigienico.jpg" alt="papelhigienico">
+        <img id="lavandina" onclick="agregarProducto(this)" src="./img/lavandina.jpg" alt="lavandina">
+        <img id="alcohol en gel" onclick="agregarProducto(this)" src="./img/alcohol.jpg" alt="alcohol">
+        <img id="shampoo" onclick="agregarProducto(this)" src="./img/shampoo.jpg" alt="shampoo">
+        <img id="arroz" onclick="agregarProducto(this)" src="./img/arroz.jpg" alt="arroz">
+        <img id="harina integral" onclick="agregarProducto(this)" src="./img/harina2.jpg" alt="harina2">
+        <img id="salsa de tomate" onclick="agregarProducto(this)" src="./img/salsa.jpg" alt="salsa">
+    </div>
+
+    <ul id="listaFinal">
+        <li class="listaFinal" style=border:none;>Lista de Compras: </li>
+    </ul>
+    <div id="precioFinal"></div>
+    <button id="botonCompra" onclick="calcularPrecioFinal()">Finalizar Compra</button>
+
+    
+
+    <script type="text/javascript" src="stock.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
